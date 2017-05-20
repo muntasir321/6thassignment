@@ -1,0 +1,141 @@
+body{
+margin: 0;
+padding: 0
+
+}
+img{ max-width: 100%;
+display:block; }
+.header{
+
+}
+.logo{
+
+background: #343434;
+}
+.logo img{
+    width: 100px;
+}
+.menu{
+    background: #656565;
+}
+nav{
+    padding: 20px 0;
+    text-align: left;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline;
+    position: relative;
+}
+nav ul li a{
+    height: 40px;
+    padding: 0 30px;
+    background: #ffa645;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 10px;
+    line-height: 40px;
+    border-radius: 5px;
+}
+.content-section{
+    overflow: hidden;
+}
+.post{
+    padding: 10px 50px;
+    width: 60%;
+    float: left;
+    background: beige;
+}
+.post1{
+    padding: 10px;
+    border: 2px solid #635c5c;
+    margin-top: 20px;
+}
+.post1 img{
+    width: 200px;
+}
+.post1 h1{
+}
+.post1 p{
+    text-align: justify;
+}
+.post1 a{
+    text-decoration: none;
+}
+
+.post2{
+    padding: 10px;
+    border: 2px solid #1b1919;
+    margin-top: 20px;
+}
+.post2 img{
+    width: 160px;
+}
+.post2 h1{}
+.post2 p{
+    text-align: justify;
+    box-sizing: border-box;
+}
+.post2 a{
+    text-decoration: none;
+}
+
+.post3{
+    padding: 10px;
+    border: 2px solid #171414;
+    margin-top: 20px;
+}
+.post3 img{
+    width: 188px;
+}
+.post3 h1{}
+.post3 p{
+    text-align: justify;
+}
+.post3 a{}
+
+.sidebar{
+    float: right;
+    width: 32%;
+    background: #E4E4E4;
+    height: 915px;
+}
+.sidebar h1{
+    border-bottom: 2px solid rgb(109, 105, 109);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.sidebar ul{
+}
+.sidebar ul li{list-style: none;padding: 5px;}
+.sidebar ul li a{
+    text-decoration: none;
+}
+
+.sidebar h2{
+    border-bottom: 2px solid;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.sidebar p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer{background: #343434;color: white;height: 100%;text-align: center;}
+.copyright{
+}
+.copyright p{
+    font-size: 16px;
+}
+.copyright p a{
+    color: white;
+}
